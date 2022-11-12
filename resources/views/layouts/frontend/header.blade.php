@@ -91,6 +91,10 @@
                     <li><a href="{{ route('home') }}" class="sub-menu-item">HOME</a></li>
 
                     <li class="has-submenu parent-parent-menu-item">
+                        <a href="{{ route('aboutus') }}">About Us</a>
+                    </li>
+
+                    <li class="has-submenu parent-parent-menu-item">
                         <a href="{{ route('services') }}">SERVICES</a>
                     </li>
 
@@ -98,9 +102,6 @@
                         <a href="{{ route('doctors') }}">DOCTORS</a>
                     </li>
 
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="{{ route('blogs') }}">BLOGS</a>
-                    </li>
                     <li class="has-submenu parent-menu-item">
                         <a href="{{ route('gallery') }}">Gallery</a>
                     </li>

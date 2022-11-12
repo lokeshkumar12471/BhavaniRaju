@@ -41,6 +41,11 @@
                                             class="uil uil-angle-right-b me-1"></i>Home</a>
                                 </li>
                                 <li class="mt-[10px]">
+                                    <a href="{{ route('aboutus') }}"
+                                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                                            class="uil uil-angle-right-b me-1"></i>About us</a>
+                                </li>
+                                <li class="mt-[10px]">
                                     <a href="{{ route('services') }}"
                                         class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
                                             class="uil uil-angle-right-b me-1"></i>Services</a>
@@ -49,11 +54,6 @@
                                     <a href="{{ route('doctors') }}"
                                         class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
                                             class="uil uil-angle-right-b me-1"></i>Doctors</a>
-                                </li>
-                                <li class="mt-[10px]">
-                                    <a href="{{ route('blogs') }}"
-                                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                                            class="uil uil-angle-right-b me-1"></i>Blogs</a>
                                 </li>
                                 <li class="mt-[10px]">
                                     <a href="{{ route('gallery') }}"

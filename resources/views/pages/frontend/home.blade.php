@@ -83,9 +83,9 @@
             <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                 <div class="md:col-span-5">
                     <div class="relative">
-                        <img src="assets/images/company/about2.png" class="mx-auto" alt="" />
+                        <img src="assets\wallpaper\neopolis.02.jpg" class="mx-auto" alt="" />
                         <div class="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
-                            <a href="#!" data-type="youtube" data-id="yba7hPeTSjk"
+                            <a href="https://youtu.be/fKSBVIKbcAg" data-type="youtube" data-id="fKSBVIKbcAg"
                                 class="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">
                                 <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                             </a>
@@ -93,21 +93,26 @@
                     </div>
                 </div>
                 <!--end col-->
-
                 <div class="md:col-span-7">
                     <div class="lg:ml-4">
                         <p class="text-slate-400 max-w-xl">
-                            Start working with Tailwind CSS that can provide everything you
-                            need to generate awareness, drive traffic, connect. Dummy text
-                            is text that is used in the publishing industry or by web
-                            designers to occupy the space which will later be filled with
-                            'real' content. This is required when, for example, the final
-                            text is not yet available. Dummy texts have been in use by
-                            typesetters since the 16th century.
+                            Neopolis Clinics is located in Film Nagar, Jubilee Hills Hyderabad
+                            <br>
+                            Road Number 82 Navanirman Nagar Colony, Jubilee Hills, Hyderabad, India, Telangana
+                            <br>
+                            We think that everyone should have easy access to excellent
+                            healthcare. Our aim is to make the procedure as simple as
+                            possible for our patients and to offer treatment no matter
+                            where they are — in person or at their convenience.
+                            Hospital information systems provide a common source of information about a patient's health
+                            history, and doctors schedule timing. The system has to keep data in a secure place and
+                            controls who can reach the data in certain circumstances. These systems enhance the ability
+                            of health care professionals to coordinate care by providing a patient's health information
+                            and visit history at the place and time that it is needed.
                         </p>
-                        <a href=""
-                            class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Buy
-                            Now <i class="mdi mdi-chevron-right align-middle"></i></a>
+                        <a href="{{ route('bookappointment') }}"
+                            class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Book
+                            Appointment<i class="mdi mdi-chevron-right align-middle"></i></a>
                     </div>
                 </div>
                 <!--end col-->
@@ -658,8 +663,9 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " It seems that only fragments of the original text remain
-                                in the Lorem Ipsum texts used today. "
+                                " Gastroenterology is the study of the normal function and diseases of the esophagus,
+                                stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver.
+                                "
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -671,10 +677,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/bhavani.png"
-                                class="h-14 w-14 rounded-full shadow-md mx-auto" alt="" />
-                            <h6 class="mt-2 font-semibold">Calvin Carlo</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Praveen</h6>
+                            <span class="text-slate-400 text-sm">Gastroenterology</span>
                         </div>
                     </div>
                 </div>
@@ -685,8 +689,8 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " The most well-known dummy text is the 'Lorem Ipsum', which
-                                is said to have originated in the 16th century. "
+                                "neurology, medical specialty concerned with the nervous system and its functional or
+                                organic disorders. "
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -698,10 +702,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/vikranth.png"
-                                class="h-14 w-14 rounded-full shadow-md mx-auto" alt="" />
-                            <h6 class="mt-2 font-semibold">Christa Smith</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Kiran</h6>
+                            <span class="text-slate-400 text-sm">Neurology</span>
                         </div>
                     </div>
                 </div>
@@ -712,8 +714,8 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " One disadvantage of Lorum Ipsum is that in Latin certain
-                                letters appear more frequently than others. "
+                                "Orthopedic surgery or orthopedics, is the branch of surgery concerned with conditions
+                                involving the musculoskeletal system. "
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -725,10 +727,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/swamy.png" class="h-14 w-14 rounded-full shadow-md mx-auto"
-                                alt="" />
-                            <h6 class="mt-2 font-semibold">Jemina CLone</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Sagar</h6>
+                            <span class="text-slate-400 text-sm">Orthopedic</span>
                         </div>
                     </div>
                 </div>
@@ -739,8 +739,8 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " Thus, Lorem Ipsum has only limited suitability as a visual
-                                filler for German texts. "
+                                " Pulmonology often involves managing patients who need life support and mechanical
+                                ventilation."
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -752,10 +752,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/rahul.png" class="h-14 w-14 rounded-full shadow-md mx-auto"
-                                alt="" />
-                            <h6 class="mt-2 font-semibold">Smith Vodka</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Ramesh</h6>
+                            <span class="text-slate-400 text-sm"> Pulmonology</span>
                         </div>
                     </div>
                 </div>
@@ -766,8 +764,8 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " There is now an abundance of readable dummy texts. These
-                                are usually used when a text is required. "
+                                "A vascular access is a surgically created vein used to remove and return blood during
+                                hemodialysis. "
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -779,10 +777,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/raghu.png" class="h-14 w-14 rounded-full shadow-md mx-auto"
-                                alt="" />
-                            <h6 class="mt-2 font-semibold">Cristino Murfi</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Preethi</h6>
+                            <span class="text-slate-400 text-sm"> Vascular Access</span>
                         </div>
                     </div>
                 </div>
@@ -793,8 +789,10 @@
                             class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900">
                             <i class="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
                             <p class="text-slate-400">
-                                " According to most sources, Lorum Ipsum can be traced back
-                                to a text composed by Cicero. "
+                                "An upper GI endoscopy or EGD (esophagogastroduodenoscopy) is a procedure to diagnose
+                                and treat problems in your upper GI (gastrointestinal) tract.
+                                The upper GI tract includes your food pipe (esophagus), stomach, and the first part of
+                                your small intestine (the duodenum). "
                             </p>
                             <ul class="list-none mb-0 text-amber-400 mt-3">
                                 <li class="inline"><i class="mdi mdi-star"></i></li>
@@ -806,10 +804,8 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <img src="assets/doctorsimages/mallikarjuna.png"
-                                class="h-14 w-14 rounded-full shadow-md mx-auto" alt="" />
-                            <h6 class="mt-2 font-semibold">Cristino Murfi</h6>
-                            <span class="text-slate-400 text-sm">Manager</span>
+                            <h6 class="mt-2 font-semibold">Geetha</h6>
+                            <span class="text-slate-400 text-sm">UGI Endoscopy</span>
                         </div>
                     </div>
                 </div>
@@ -943,7 +939,7 @@
                                 </div>
                             </div>
                             <button type="submit" id="submit" name="send"
-                                class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-cen ter">Send
+                                class="btn bg-indigo-600 w-full hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-cen ter">Send
                                 Message</button>
                         </form>
                     </div>

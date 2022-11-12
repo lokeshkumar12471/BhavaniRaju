@@ -25,9 +25,9 @@ class FrontendController extends Controller
     {
         return view('pages.frontend.doctors');
     }
-    public function blogs()
+    public function aboutus()
     {
-        return view('pages.frontend.blogs');
+        return view('pages.frontend.aboutus');
     }
     public function gallery()
     {
@@ -37,5 +37,9 @@ class FrontendController extends Controller
     public function contact()
     {
         return view('pages.frontend.contact');
+    }
+    public function bookappointment()
+    {
+        return view('pages.frontend.bookappointment');
     }
 }

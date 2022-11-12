@@ -1,5 +1,4 @@
 <x-guest-layout>
-
     <div class="container md:mt-24 mt-16">
         <div class="grid grid-cols-1 pb-8 text-center">
             <h3 class="mt-8 md:text-3xl text-2xl md:leading-normal leading-normal font-medium   dark:text-white">
@@ -125,7 +124,7 @@
                                 </div>
                             </div>
                             <button type="submit" id="submit" name="send"
-                                class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-cen ter">Send
+                                class="btn bg-indigo-600 w-full hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-cen ter">Send
                                 Message</button>
                         </form>
                     </div>
