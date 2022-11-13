@@ -9,7 +9,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="blog relative rounded-md shadow dark:shadow-gray-700 overflow-hidden">
-                <img src="assets\gallery\diverticulitis.jpeg" alt="" />
+                <img src="{{ asset('frontend\assets\gallery\diverticulitis.jpeg') }}" alt="" />
 
                 <div class="content p-6">
                     <a href="blog-detail.html"
@@ -21,7 +21,7 @@
             </div>
 
             <div class="blog relative rounded-md shadow dark:shadow-gray-700 overflow-hidden">
-                <img src="assets\gallery\hepatitis.jpeg" alt="" />
+                <img src="{{ asset('frontend\assets\gallery\hepatitis.jpeg') }}" alt="" />
 
                 <div class="content p-6">
                     <a href="blog-detail.html"
@@ -34,7 +34,7 @@
             </div>
 
             <div class="blog relative rounded-md shadow dark:shadow-gray-700 overflow-hidden">
-                <img src="assets\gallery\gastroesophageal.jpg" alt="" />
+                <img src="{{ asset('frontend\assets\gallery\gastroesophageal.jpg') }}" alt="" />
 
                 <div class="content p-6">
                     <a href="blog-detail.html"

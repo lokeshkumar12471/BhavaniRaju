@@ -16,7 +16,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/01.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/01.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Gastroenterology</h4>
@@ -29,7 +30,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/03.png">
+                            <img class="height-[45px]" src="{{ 'frontend/assets/multispecialtyhospital/03.png' }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Hepatology/Liver Transplant</h4>
@@ -42,7 +43,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/05.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/05.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Nephrology</h4>
@@ -55,7 +57,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/06.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/06.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Neurology</h4>
@@ -68,7 +71,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/07.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/07.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">
@@ -83,7 +87,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/09.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/09.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">
@@ -98,7 +103,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/02.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/02.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Urology/Kidney Transplant</h4>
@@ -111,7 +117,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/04.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/04.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Orthopaedics</h4>
@@ -124,7 +131,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/08.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/08.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">
@@ -138,7 +146,8 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img class="height-[45px]" src="assets/multispecialtyhospital/10.png">
+                            <img class="height-[45px]"
+                                src="{{ asset('frontend/assets/multispecialtyhospital/10.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">
@@ -157,7 +166,7 @@
     <!-- End -->
 
     <!-- Start -->
-    <section class="relative">
+    <section class="relative" id="otherservices">
         <div class="container">
             <div class="grid grid-cols-1 pb-8 text-center">
                 <h3
@@ -173,7 +182,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/11.png">
+                            <img src="{{ asset('frontend/assets/otherservices/11.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">UGI Endoscopy</h4>
@@ -187,7 +196,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50  from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/12.png">
+                            <img src="{{ asset('frontend/assets/otherservices/12.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Vascular Access</h4>
@@ -200,7 +209,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/13.png">
+                            <img src="{{ asset('frontend/assets/otherservices/13.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Sigmoidoscopy</h4>
@@ -214,7 +223,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/14.png">
+                            <img src="{{ asset('frontend/assets/otherservices/14.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Urodynamics & Uroflowmetry</h4>
@@ -227,7 +236,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/15.png">
+                            <img src="{{ asset('frontend/assets/otherservices/15.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Colonoscopy</h4>
@@ -241,7 +250,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/otherservices/16.png">
+                            <img src="{{ asset('frontend/assets/otherservices/16.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Neat</h4>
@@ -254,7 +263,7 @@
                         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50  from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/multispecialtyhospital/09.png">
+                            <img src="{{ asset('frontend/assets/multispecialtyhospital/09.png') }}">
                         </div>
                         <div class="flex-1">
                             <h4 class="mb-0 text-lg font-medium">Pulmonary Functions Tests</h4>

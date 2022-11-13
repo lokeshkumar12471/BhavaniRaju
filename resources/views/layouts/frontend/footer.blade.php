@@ -7,7 +7,7 @@
                     <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                         <div class="lg:col-span-4 md:col-span-12">
                             <a href="#" class="text-[22px] focus:outline-none">
-                                <img src="assets/hospitallogo/logowhite.png" alt="" />
+                                <img src="{{ asset('frontend/assets/hospitallogo/logowhite.png') }}" alt="" />
                             </a>
                             <p class="text-gray-300">
                                 A Unit of Neopolis Medical Services LLP

@@ -14,7 +14,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img height="height-[45px]" src="assets/doctorsimages/bhavani.png">
+                            <img height="height-[45px]" src="{{ asset('frontend/assets/doctorsimages/bhavani.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -33,7 +33,7 @@
                         class="bg-sky-100 text-white  flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/prasad.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/prasad.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -53,7 +53,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/arun.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/arun.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -73,7 +73,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/mallikarjuna.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/mallikarjuna.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -92,7 +92,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/rahul.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/rahul.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -110,7 +110,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/raghu.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/raghu.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -129,7 +129,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src=assets/doctorsimages/swamy.png>
+                            <img src="{{ asset('frontend/assets/doctorsimages/nagasaina.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -146,7 +146,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/nagasaina.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/nagasaina.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -165,7 +165,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src=assets/doctorsimages/srinivas.png>
+                            <img src="{{ asset('frontend/assets/doctorsimages/srinivas.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -185,7 +185,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/vikranth.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/vikranth.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -203,7 +203,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/shyam.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/shyam.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -222,7 +222,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/ravinder.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/ravinder.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -243,7 +243,7 @@
                         class="bg-sky-100 text-white  flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/prathima.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/prathima.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -261,7 +261,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/gnaneswar.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/gnaneswar.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
@@ -280,7 +280,7 @@
                         class="bg-sky-100 text-white flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div
                             class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-50 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full mr-3">
-                            <img src="assets/doctorsimages/gnaneswar.png">
+                            <img src="{{ asset('frontend/assets/doctorsimages/gnaneswar.png') }}">
                         </div>
                         <a href="{{ route('doctors') }}">
                             <div class="flex-1">
