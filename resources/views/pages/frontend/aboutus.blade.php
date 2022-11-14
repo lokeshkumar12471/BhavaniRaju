@@ -10,7 +10,8 @@
             <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                 <div class="md:col-span-5">
                     <div class="relative">
-                        <img src="assets\wallpaper\neopolis.02.jpg" class="mx-auto" alt="" />
+                        <img src="{{ asset('frontend\assets\wallpaper\neopolis.02.jpg') }}" class="mx-auto"
+                            alt="" />
                         <div class="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                             <a href="https://youtu.be/fKSBVIKbcAg" data-type="youtube" data-id="fKSBVIKbcAg"
                                 class="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">

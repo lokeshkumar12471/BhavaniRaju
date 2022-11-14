@@ -13,18 +13,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/wallpaper/logo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('frontend/assets/wallpaper/logo.png') }}" />
 
     <!-- Css -->
-    <link href="{{ asset('assets/libs/tobii/css/tobii.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/libs/tiny-slider/tiny-slider.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/libs/swiper/css/swiper.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/assets/libs/tobii/css/tobii.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/assets/libs/tiny-slider/tiny-slider.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/assets/libs/swiper/css/swiper.min.css') }}" rel="stylesheet" />
 
     <!-- Main Css -->
-    <link href="{{ asset('assets/libs/@iconscout/unicons/css/line.css') }}" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}" />
+    <link href="{{ asset('frontend/assets/libs/@iconscout/unicons/css/line.css') }}" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/icons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/tailwind.min.css') }}" />
 </head>
 
 <body>
@@ -54,12 +53,12 @@
     <!-- Switcher -->
 
     <!-- JAVASCRIPTS -->
-    <script src="{{ asset('assets/libs/tobii/js/tobii.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/tiny-slider/min/tiny-slider.js') }}"></script>
-    <script src="{{ asset('assets/libs/swiper/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('assets/libs/feather-icons/feather.min.js') }}"></script>
-    <script src="{{ asset('assets/js/plugins.init.js') }}"></script>
-    <script src="{{ asset('assets/js/app.js') }}"></script>
+    <script src="{{ asset('frontend/assets/libs/tobii/js/tobii.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/libs/tiny-slider/min/tiny-slider.js') }}"></script>
+    <script src="{{ asset('frontend/assets/libs/swiper/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/libs/feather-icons/feather.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins.init.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/app.js') }}"></script>
     <!-- JAVASCRIPTS -->
 </body>
 

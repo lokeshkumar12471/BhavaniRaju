@@ -15,11 +15,13 @@
             <!-- Logo container-->
             <a class="logo" href="{{ route('home') }}">
                 <span class="inline-block dark:hidden">
-                    <img src="assets/hospitallogo/logoblue.png" class="l-dark" height="24" alt="" />
-                    <img src="assets/hospitallogo/logoblue.png" class="l-light" height="24" alt="" />
+                    <img src="{{ asset('frontend/assets/hospitallogo/logoblue.png') }}" class="l-dark" height="24"
+                        alt="" />
+                    <img src="{{ asset('frontend/assets/hospitallogo/logoblue.png') }}" class="l-light" height="24"
+                        alt="" />
                 </span>
-                <img src="assets/hospitallogo/logoblue.png" height="24" class="hidden dark:inline-block"
-                    alt="" />
+                <img src="{{ asset('frontend/assets/hospitallogo/logoblue.png') }}" height="24"
+                    class="hidden dark:inline-block" alt="" />
             </a>
 
             <!-- End Logo container-->
