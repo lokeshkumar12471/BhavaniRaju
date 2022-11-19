@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
     <!-- Scripts -->
-    <link rel="modulepreload" href="http://127.0.0.1:8000/build/assets/app.d426e523.js" />
-    <link rel="stylesheet" href="http://127.0.0.1:8000/build/assets/app.472976c2.css" />
+    <link rel="modulepreload" href="{{ asset('build/assets/app.7cafe3db.js') }}" />
+    <link rel="stylesheet" href="{{ asset('build/assets/app.9fe7316d.css') }}" />
 </head>
 
 <body>

@@ -16,20 +16,17 @@ module.exports = {
             fontFamily: {
                 sans: ["Nunito", ...defaultTheme.fontFamily.sans],
             },
+
+            zIndex: {
+                "-1": "-1",
+            },
+            flexGrow: {
+                5: "5",
+            },
         },
-        screens: {
-            sm: "576px",
-            "sm-max": { max: "576px" },
-            md: "768px",
-            "md-max": { max: "768px" },
-            lg: "992px",
-            "lg-max": { max: "992px" },
-            xl: "1200px",
-            "xl-max": { max: "1200px" },
-            "2xl": "1320px",
-            "2xl-max": { max: "1320px" },
-        },
-        colors: ({ colors }) => ({
+        colors: ({
+            colors
+        }) => ({
             inherit: colors.inherit,
             current: colors.current,
             transparent: colors.transparent,
@@ -462,90 +459,64 @@ module.exports = {
             square: "1 / 1",
             video: "16 / 9",
         },
-        backdropBlur: ({ theme }) => theme("blur"),
-        backdropBrightness: ({ theme }) => theme("brightness"),
-        backdropContrast: ({ theme }) => theme("contrast"),
-        backdropGrayscale: ({ theme }) => theme("grayscale"),
-        backdropHueRotate: ({ theme }) => theme("hueRotate"),
-        backdropInvert: ({ theme }) => theme("invert"),
-        backdropOpacity: ({ theme }) => theme("opacity"),
-        backdropSaturate: ({ theme }) => theme("saturate"),
-        backdropSepia: ({ theme }) => theme("sepia"),
-        backgroundColor: ({ theme }) => theme("colors"),
-        backgroundImage: ({ theme }) => ({
+        backdropBlur: ({
+            theme
+        }) => theme("blur"),
+        backdropBrightness: ({
+            theme
+        }) => theme("brightness"),
+        backdropContrast: ({
+            theme
+        }) => theme("contrast"),
+        backdropGrayscale: ({
+            theme
+        }) => theme("grayscale"),
+        backdropHueRotate: ({
+            theme
+        }) => theme("hueRotate"),
+        backdropInvert: ({
+            theme
+        }) => theme("invert"),
+        backdropOpacity: ({
+            theme
+        }) => theme("opacity"),
+        backdropSaturate: ({
+            theme
+        }) => theme("saturate"),
+        backdropSepia: ({
+            theme
+        }) => theme("sepia"),
+        backgroundColor: ({
+            theme
+        }) => theme("colors"),
+        backgroundImage: ({
+            theme
+        }) => ({
             none: "none",
-            "gradient-to-t":
-                "linear-gradient(to top, var(--tw-gradient-stops))",
-            "gradient-to-tr":
-                "linear-gradient(to top right, var(--tw-gradient-stops))",
-            "gradient-to-r":
-                "linear-gradient(to right, var(--tw-gradient-stops))",
-            "gradient-to-br":
-                "linear-gradient(to bottom right, var(--tw-gradient-stops))",
-            "gradient-to-b":
-                "linear-gradient(to bottom, var(--tw-gradient-stops))",
-            "gradient-to-bl":
-                "linear-gradient(to bottom left, var(--tw-gradient-stops))",
-            "gradient-to-l":
-                "linear-gradient(to left, var(--tw-gradient-stops))",
-            "gradient-to-tl":
-                "linear-gradient(to top left, var(--tw-gradient-stops))",
+            "gradient-to-t": "linear-gradient(to top, var(--tw-gradient-stops))",
+            "gradient-to-tr": "linear-gradient(to top right, var(--tw-gradient-stops))",
+            "gradient-to-r": "linear-gradient(to right, var(--tw-gradient-stops))",
+            "gradient-to-br": "linear-gradient(to bottom right, var(--tw-gradient-stops))",
+            "gradient-to-b": "linear-gradient(to bottom, var(--tw-gradient-stops))",
+            "gradient-to-bl": "linear-gradient(to bottom left, var(--tw-gradient-stops))",
+            "gradient-to-l": "linear-gradient(to left, var(--tw-gradient-stops))",
+            "gradient-to-tl": "linear-gradient(to top left, var(--tw-gradient-stops))",
 
-            "gradient-fuchsia":
-                "linear-gradient(310deg," +
-                theme("colors.purple.700") +
-                "," +
-                theme("colors.pink.500") +
-                ")",
-            "gradient-cyan":
-                "linear-gradient(310deg," +
-                theme("colors.blue.600") +
-                "," +
-                theme("colors.cyan.400") +
-                ")",
-            "gradient-orange":
-                "linear-gradient(310deg," +
-                theme("colors.red.500") +
-                "," +
-                theme("colors.yellow.400") +
-                ")",
-            "gradient-red":
-                "linear-gradient(310deg," +
-                theme("colors.red.600") +
-                "," +
-                theme("colors.rose.400") +
-                ")",
-            "gradient-lime":
-                "linear-gradient(310deg," +
-                theme("colors.green.600") +
-                "," +
-                theme("colors.lime.400") +
-                ")",
-            "gradient-slate":
-                "linear-gradient(310deg," +
-                theme("colors.slate.600") +
-                "," +
-                theme("colors.slate.300") +
-                ")",
-            "gradient-dark-gray":
-                "linear-gradient(310deg," +
-                theme("colors.gray.900") +
-                "," +
-                theme("colors.slate.800") +
-                ")",
-            "gradient-gray":
-                "linear-gradient(310deg," +
-                theme("colors.gray.400") +
-                "," +
-                theme("colors.gray.100") +
-                ")",
+            "gradient-fuchsia": "linear-gradient(310deg," + theme("colors.purple.700") + "," + theme("colors.pink.500") + ")",
+            "gradient-cyan": "linear-gradient(310deg," + theme("colors.blue.600") + "," + theme("colors.cyan.400") + ")",
+            "gradient-orange": "linear-gradient(310deg," + theme("colors.red.500") + "," + theme("colors.yellow.400") + ")",
+            "gradient-red": "linear-gradient(310deg," + theme("colors.red.600") + "," + theme("colors.rose.400") + ")",
+            "gradient-lime": "linear-gradient(310deg," + theme("colors.green.600") + "," + theme("colors.lime.400") + ")",
+            "gradient-slate": "linear-gradient(310deg," + theme("colors.slate.600") + "," + theme("colors.slate.300") + ")",
+            "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.gray.900") + "," + theme("colors.slate.800") + ")",
+            "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
 
-            "gradient-horizontal-dark":
-                "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
-            "gradient-horizontal-light":
-                "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
+            "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
+            "gradient-horizontal-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
         }),
-        backgroundOpacity: ({ theme }) => theme("opacity"),
+        backgroundOpacity: ({
+            theme
+        }) => theme("opacity"),
         backgroundPosition: {
             bottom: "bottom",
             center: "center",
@@ -588,12 +559,18 @@ module.exports = {
             150: "1.5",
             200: "2",
         },
-        borderColor: ({ theme }) => ({
+        borderColor: ({
+            theme
+        }) => ({
             ...theme("colors"),
             DEFAULT: theme("colors.gray.200", "currentColor"),
         }),
-        borderOpacity: ({ theme }) => theme("opacity"),
-        borderRadius: ({ theme }) => ({
+        borderOpacity: ({
+            theme
+        }) => theme("opacity"),
+        borderRadius: ({
+            theme
+        }) => ({
             ...theme("spacing"),
             none: "0px",
             inherit: "inherit",
@@ -619,21 +596,16 @@ module.exports = {
         },
         boxShadow: {
             "soft-xxs": "0 1px 5px 1px #ddd",
-            "soft-xs":
-                "0 3px 5px -1px rgba(0,0,0,.09),0 2px 3px -1px rgba(0,0,0,.07)",
-            "soft-sm":
-                "0 .25rem .375rem -.0625rem hsla(0,0%,8%,.12),0 .125rem .25rem -.0625rem hsla(0,0%,8%,.07)",
-            "soft-md":
-                "0 4px 7px -1px rgba(0,0,0,.11),0 2px 4px -1px rgba(0,0,0,.07)",
+            "soft-xs": "0 3px 5px -1px rgba(0,0,0,.09),0 2px 3px -1px rgba(0,0,0,.07)",
+            "soft-sm": "0 .25rem .375rem -.0625rem hsla(0,0%,8%,.12),0 .125rem .25rem -.0625rem hsla(0,0%,8%,.07)",
+            "soft-md": "0 4px 7px -1px rgba(0,0,0,.11),0 2px 4px -1px rgba(0,0,0,.07)",
             "soft-lg": "0 2px 12px 0 rgba(0,0,0,.16)",
             "soft-xl": "0 20px 27px 0 rgba(0,0,0,0.05)",
             "soft-2xl": "0 .3125rem .625rem 0 rgba(0,0,0,.12)",
-            "soft-3xl":
-                "0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)",
+            "soft-3xl": "0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)",
             "soft-primary-outline": "0 0 0 2px #e9aede",
             blur: "inset 0 0 1px 1px hsla(0,0%,100%,.9),0 20px 27px 0 rgba(0,0,0,.05)",
-            DEFAULT:
-                "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+            DEFAULT: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
             inner: "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
             sm: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
             md: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
@@ -642,9 +614,15 @@ module.exports = {
             "2xl": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
             none: "none",
         },
-        boxShadowColor: ({ theme }) => theme("colors"),
-        caretColor: ({ theme }) => theme("colors"),
-        accentColor: ({ theme }) => ({
+        boxShadowColor: ({
+            theme
+        }) => theme("colors"),
+        caretColor: ({
+            theme
+        }) => theme("colors"),
+        accentColor: ({
+            theme
+        }) => ({
             ...theme("colors"),
             auto: "auto",
         }),
@@ -709,25 +687,27 @@ module.exports = {
             "zoom-in": "zoom-in",
             "zoom-out": "zoom-out",
         },
-        divideColor: ({ theme }) => theme("borderColor"),
-        divideOpacity: ({ theme }) => theme("borderOpacity"),
-        divideWidth: ({ theme }) => theme("borderWidth"),
+        divideColor: ({
+            theme
+        }) => theme("borderColor"),
+        divideOpacity: ({
+            theme
+        }) => theme("borderOpacity"),
+        divideWidth: ({
+            theme
+        }) => theme("borderWidth"),
         dropShadow: {
             sm: "0 1px 1px rgb(0 0 0 / 0.05)",
-            DEFAULT: [
-                "0 1px 2px rgb(0 0 0 / 0.1)",
-                "0 1px 1px rgb(0 0 0 / 0.06)",
-            ],
+            DEFAULT: ["0 1px 2px rgb(0 0 0 / 0.1)", "0 1px 1px rgb(0 0 0 / 0.06)"],
             md: ["0 4px 3px rgb(0 0 0 / 0.07)", "0 2px 2px rgb(0 0 0 / 0.06)"],
             lg: ["0 10px 8px rgb(0 0 0 / 0.04)", "0 4px 3px rgb(0 0 0 / 0.1)"],
-            xl: [
-                "0 20px 13px rgb(0 0 0 / 0.03)",
-                "0 8px 5px rgb(0 0 0 / 0.08)",
-            ],
+            xl: ["0 20px 13px rgb(0 0 0 / 0.03)", "0 8px 5px rgb(0 0 0 / 0.08)"],
             "2xl": "0 25px 25px rgb(0 0 0 / 0.15)",
             none: "0 0 #0000",
         },
-        fill: ({ theme }) => theme("colors"),
+        fill: ({
+            theme
+        }) => theme("colors"),
         grayscale: {
             0: "0",
             DEFAULT: "100%",
@@ -751,7 +731,9 @@ module.exports = {
             none: "none",
             0: "0 0 auto",
         },
-        flexBasis: ({ theme }) => ({
+        flexBasis: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             "1/2": "50%",
@@ -792,32 +774,63 @@ module.exports = {
         },
         fontFamily: {
             sans: ["Open Sans"],
-            serif: [
-                'SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
-                "serif",
-            ],
+            serif: ['SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace', "serif"],
             body: ["Roboto", "sans-serif"],
             awesome: ["FontAwesome"],
         },
-        fontSize: ({ theme }) => ({
+        fontSize: ({
+            theme
+        }) => ({
             ...theme("spacing"),
             inherit: "inherit",
-            "3xs": ["0.5rem", { lineHeight: "1rem" }],
-            xxs: ["0.65rem", { lineHeight: "1rem" }],
-            xs: ["0.75rem", { lineHeight: "1rem" }],
-            sm: ["0.875rem", { lineHeight: "1.5rem" }],
-            base: ["1rem", { lineHeight: "1.5rem" }],
-            lg: ["1.125rem", { lineHeight: "1.75rem" }],
-            xl: ["1.25rem", { lineHeight: "1.75rem" }],
-            "2xl": ["1.5rem", { lineHeight: "2rem" }],
-            "3xl": ["1.875rem", { lineHeight: "2.25rem" }],
-            "4xl": ["2.25rem", { lineHeight: "2.5rem" }],
-            "5xl": ["3rem", { lineHeight: "1" }],
-            "6xl": ["3.75rem", { lineHeight: "1" }],
-            "7xl": ["4.5rem", { lineHeight: "1" }],
-            "8xl": ["5rem", { lineHeight: "1" }],
-            "9xl": ["6rem", { lineHeight: "1" }],
-            "10xl": ["8rem", { lineHeight: "1" }],
+            "3xs": ["0.5rem", {
+                lineHeight: "1rem"
+            }],
+            xxs: ["0.65rem", {
+                lineHeight: "1rem"
+            }],
+            xs: ["0.75rem", {
+                lineHeight: "1rem"
+            }],
+            sm: ["0.875rem", {
+                lineHeight: "1.5rem"
+            }],
+            base: ["1rem", {
+                lineHeight: "1.5rem"
+            }],
+            lg: ["1.125rem", {
+                lineHeight: "1.75rem"
+            }],
+            xl: ["1.25rem", {
+                lineHeight: "1.75rem"
+            }],
+            "2xl": ["1.5rem", {
+                lineHeight: "2rem"
+            }],
+            "3xl": ["1.875rem", {
+                lineHeight: "2.25rem"
+            }],
+            "4xl": ["2.25rem", {
+                lineHeight: "2.5rem"
+            }],
+            "5xl": ["3rem", {
+                lineHeight: "1"
+            }],
+            "6xl": ["3.75rem", {
+                lineHeight: "1"
+            }],
+            "7xl": ["4.5rem", {
+                lineHeight: "1"
+            }],
+            "8xl": ["5rem", {
+                lineHeight: "1"
+            }],
+            "9xl": ["6rem", {
+                lineHeight: "1"
+            }],
+            "10xl": ["8rem", {
+                lineHeight: "1"
+            }],
             "banner-calculate": ["calc(1.625rem+4.5vw)"],
         }),
         fontWeight: {
@@ -831,8 +844,12 @@ module.exports = {
             extrabold: "800",
             black: "900",
         },
-        gap: ({ theme }) => theme("spacing"),
-        gradientColorStops: ({ theme }) => theme("colors"),
+        gap: ({
+            theme
+        }) => theme("spacing"),
+        gradientColorStops: ({
+            theme
+        }) => theme("colors"),
         gridAutoColumns: {
             auto: "auto",
             min: "min-content",
@@ -947,7 +964,9 @@ module.exports = {
             5: "repeat(5, minmax(0, 1fr))",
             6: "repeat(6, minmax(0, 1fr))",
         },
-        height: ({ theme }) => ({
+        height: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             "1/2": "50%",
@@ -972,7 +991,9 @@ module.exports = {
             max: "max-content",
             fit: "fit-content",
         }),
-        inset: ({ theme }) => ({
+        inset: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             "1/2": "50%",
@@ -1030,7 +1051,9 @@ module.exports = {
             wider: "0.05em",
             widest: "0.1em",
         },
-        lineHeight: ({ theme }) => ({
+        lineHeight: ({
+            theme
+        }) => ({
             ...theme("spacing"),
             none: "1",
             tighter: "1.2",
@@ -1048,11 +1071,15 @@ module.exports = {
             disc: "disc",
             decimal: "decimal",
         },
-        margin: ({ theme }) => ({
+        margin: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
         }),
-        maxHeight: ({ theme }) => ({
+        maxHeight: ({
+            theme
+        }) => ({
             ...theme("spacing"),
             full: "100%",
             screen: "100vh",
@@ -1060,7 +1087,10 @@ module.exports = {
             max: "max-content",
             fit: "fit-content",
         }),
-        maxWidth: ({ theme, breakpoints }) => ({
+        maxWidth: ({
+            theme,
+            breakpoints
+        }) => ({
             ...theme("spacing"),
             sidebar: "15.625rem",
             none: "none",
@@ -1083,7 +1113,9 @@ module.exports = {
             prose: "65ch",
             ...breakpoints(theme("screens")),
         }),
-        minHeight: ({ theme }) => ({
+        minHeight: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             0: "0px",
@@ -1097,7 +1129,9 @@ module.exports = {
             max: "max-content",
             fit: "fit-content",
         }),
-        minWidth: ({ theme }) => ({
+        minWidth: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             0: "0px",
@@ -1155,10 +1189,18 @@ module.exports = {
             11: "11",
             12: "12",
         },
-        padding: ({ theme }) => theme("spacing"),
-        placeholderColor: ({ theme }) => theme("colors"),
-        placeholderOpacity: ({ theme }) => theme("opacity"),
-        outlineColor: ({ theme }) => theme("colors"),
+        padding: ({
+            theme
+        }) => theme("spacing"),
+        placeholderColor: ({
+            theme
+        }) => theme("colors"),
+        placeholderOpacity: ({
+            theme
+        }) => theme("opacity"),
+        outlineColor: ({
+            theme
+        }) => theme("colors"),
         outlineOffset: {
             0: "0px",
             1: "1px",
@@ -1173,11 +1215,15 @@ module.exports = {
             4: "4px",
             8: "8px",
         },
-        ringColor: ({ theme }) => ({
+        ringColor: ({
+            theme
+        }) => ({
             DEFAULT: theme("colors.blue.500", "#3b82f6"),
             ...theme("colors"),
         }),
-        ringOffsetColor: ({ theme }) => theme("colors"),
+        ringOffsetColor: ({
+            theme
+        }) => theme("colors"),
         ringOffsetWidth: {
             0: "0px",
             1: "1px",
@@ -1185,7 +1231,9 @@ module.exports = {
             4: "4px",
             8: "8px",
         },
-        ringOpacity: ({ theme }) => ({
+        ringOpacity: ({
+            theme
+        }) => ({
             DEFAULT: "0.5",
             ...theme("opacity"),
         }),
@@ -1230,10 +1278,14 @@ module.exports = {
             125: "1.25",
             150: "1.5",
         },
-        scrollMargin: ({ theme }) => ({
+        scrollMargin: ({
+            theme
+        }) => ({
             ...theme("spacing"),
         }),
-        scrollPadding: ({ theme }) => theme("spacing"),
+        scrollPadding: ({
+            theme
+        }) => theme("spacing"),
         sepia: {
             0: "0",
             DEFAULT: "100%",
@@ -1247,17 +1299,25 @@ module.exports = {
             10: "10deg",
             12: "12deg",
         },
-        space: ({ theme }) => ({
+        space: ({
+            theme
+        }) => ({
             ...theme("spacing"),
         }),
-        stroke: ({ theme }) => theme("colors"),
+        stroke: ({
+            theme
+        }) => theme("colors"),
         strokeWidth: {
             0: "0",
             1: "1",
             2: "2",
         },
-        textColor: ({ theme }) => theme("colors"),
-        textDecorationColor: ({ theme }) => theme("colors"),
+        textColor: ({
+            theme
+        }) => theme("colors"),
+        textDecorationColor: ({
+            theme
+        }) => theme("colors"),
         textDecorationThickness: {
             auto: "auto",
             "from-font": "from-font",
@@ -1275,10 +1335,14 @@ module.exports = {
             4: "4px",
             8: "8px",
         },
-        textIndent: ({ theme }) => ({
+        textIndent: ({
+            theme
+        }) => ({
             ...theme("spacing"),
         }),
-        textOpacity: ({ theme }) => theme("opacity"),
+        textOpacity: ({
+            theme
+        }) => theme("opacity"),
         transformOrigin: {
             center: "center",
             top: "top",
@@ -1319,8 +1383,7 @@ module.exports = {
         transitionProperty: {
             none: "none",
             all: "all",
-            DEFAULT:
-                "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+            DEFAULT: "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
             colors: "color, background-color, border-color, text-decoration-color, fill, stroke",
             color: "color",
             height: "height",
@@ -1343,7 +1406,9 @@ module.exports = {
             "soft-in-out": "cubic-bezier(0.42, 0, 0.58, 1)",
             "soft-out": "cubic-bezier(0, 0, 0.58, 1)",
         },
-        translate: ({ theme }) => ({
+        translate: ({
+            theme
+        }) => ({
             ...theme("spacing"),
             "1/2": "50%",
             "1/3": "33.333333%",
@@ -1353,7 +1418,9 @@ module.exports = {
             "3/4": "75%",
             full: "100%",
         }),
-        width: ({ theme }) => ({
+        width: ({
+            theme
+        }) => ({
             auto: "auto",
             ...theme("spacing"),
             "1/100": "1%",
@@ -1415,135 +1482,7 @@ module.exports = {
     variants: {
         display: ["responsive", "dropdown"],
     },
-    variantOrder: [
-        "first",
-        "last",
-        "odd",
-        "even",
-        "visited",
-        "checked",
-        "empty",
-        "read-only",
-        "group-hover",
-        "group-focus",
-        "focus-within",
-        "hover",
-        "focus",
-        "focus-visible",
-        "active",
-        "disabled",
-    ],
-
-    plugins: [
-        plugin(function ({ addComponents, addUtilities }) {
-            addUtilities({
-                ".transform3d": {
-                    transform: "perspective(999px) rotateX(0deg) translateZ(0)",
-                },
-                ".transform3d-hover": {
-                    transform:
-                        "perspective(999px) rotateX(7deg) translate3d(0,-4px,5px)",
-                },
-                ".transform-dropdown": {
-                    transform:
-                        "perspective(999px) rotateX(-10deg) translateZ(0) translate3d(0,37px,0)",
-                },
-                ".transform-dropdown-show": {
-                    transform:
-                        "perspective(999px) rotateX(0deg) translateZ(0) translate3d(0,37px,5px)",
-                },
-                ".flex-wrap-inherit": {
-                    "flex-wrap": "inherit",
-                },
-            });
-            const typography = {
-                a: {
-                    "letter-spacing": "-0.025rem",
-                },
-
-                hr: {
-                    margin: "1rem 0",
-                    border: "0",
-                    opacity: ".25",
-                },
-
-                img: {
-                    maxWidth: "none",
-                },
-
-                label: {
-                    display: "inline-block",
-                },
-
-                p: {
-                    "line-height": "1.625",
-                    "font-weight": "400",
-                    "margin-bottom": "1rem",
-                },
-
-                small: {
-                    "font-size": ".875em",
-                },
-
-                svg: {
-                    display: "inline",
-                },
-
-                table: {
-                    "border-collapse": "inherit",
-                },
-
-                "h1, h2, h3, h4, h5, h6": {
-                    "margin-bottom": ".5rem",
-                    color: "#344767",
-                },
-
-                "h1, h2, h3, h4": {
-                    "letter-spacing": "-0.05rem",
-                },
-
-                "h1, h2, h3": {
-                    "font-weight": "700",
-                },
-                "h4, h5, h6": {
-                    "font-weight": "600",
-                },
-
-                h1: {
-                    "font-size": "3rem",
-                    "line-height": "1.25",
-                },
-                h2: {
-                    "font-size": "2.25rem",
-                    "line-height": "1.3",
-                },
-                h3: {
-                    "font-size": "1.875rem",
-                    "line-height": "1.375",
-                },
-                h4: {
-                    "font-size": "1.5rem",
-                    "line-height": "1.375",
-                },
-                h5: {
-                    "font-size": "1.25rem",
-                    "line-height": "1.375",
-                },
-                h6: {
-                    "font-size": "1rem",
-                    "line-height": "1.625",
-                },
-            };
-            addComponents(typography);
-        }),
-        plugin(function ({ matchUtilities, theme }) {
-            matchUtilities({
-                "bg-gradient": (angle) => ({
-                    "background-image": `linear-gradient(${angle}, var(--tw-gradient-stops))`,
-                }),
-            });
-        }),
-    ],
+    variantOrder: ["first", "last", "odd", "even", "visited", "checked", "empty", "read-only", "group-hover", "group-focus", "focus-within", "hover", "focus", "focus-visible", "active", "disabled"],
 
     plugins: [require("@tailwindcss/forms")],
 };

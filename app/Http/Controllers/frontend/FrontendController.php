@@ -27,7 +27,7 @@ class FrontendController extends Controller
     }
     public function aboutus()
     {
-        return view('pages.frontend.aboutus');
+        return view('pages.frontend.about');
     }
     public function gallery()
     {

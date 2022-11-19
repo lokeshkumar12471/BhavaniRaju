@@ -3,17 +3,11 @@
     <section class="swiper-slider-hero relative block h-screen" id="home">
         <div class="swiper-slide flex items-center overflow-hidden md:py-24 py-24">
             <div class="slide-inner slide-bg-image md:px-2 px-2 flex items-center bg-center bg-no-repeat ;"
-                data-background="{{ asset('frontend/assets/wallpaper/background.jpg') }}">
-                <div class="absolute inset-0 bg-black/70"></div>
-                <div class="container">
-                    <div class="grid grid-cols-1">
-                        <div class="text-center">
-                            <img src={{ asset('frontend/assets/wallpaper/neopolislogo.png') }}
-                                class="l-dark text-white/70 text-lg max-w-xl mx-auto" height="24" alt="" />
-                            <!--end container-->
-                        </div>
-                    </div>
-                    <!-- end swiper-slide -->
+                data-background="{{ asset('frontend/assets/wallpaper/neopolis.jpg') }}">
+                <div class="absolute inset-0"></div>
+            </div>
+        </div>
+        <!-- end swiper-slide -->
     </section>
     <!--end section-->
     <!-- Hero End -->
